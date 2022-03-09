@@ -19,5 +19,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
 });
 
 project.addGitIgnore('.dev');
+project.addGitIgnore('.DS_Store');
 
 project.synth();
